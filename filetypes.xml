@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern=".env" type="Bash" />
+      <mapping ext="dockerfile" type="Dockerfile" />
+      <mapping ext="msg" type="JSON" />
+      <mapping ext="swf" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

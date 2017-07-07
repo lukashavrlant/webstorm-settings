@@ -1,0 +1,29 @@
+<application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="ibillboard" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.cognito.cz" />
+          <option name="userName" value="petr.valek@billboard.cz" />
+        </UrlAndUserName>
+      </list>
+    </option>
+  </component>
+  <component name="HgRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="http://hg.billboard.intra/AdServer/AdSelectorProxy/" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="SHOW_LST_WORD_DIFFERENCES" value="false" />
+  </component>
+</application>

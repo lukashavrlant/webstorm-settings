@@ -1,0 +1,110 @@
+<templateSet group="JavaScript">
+  <template name="log" value="console.log($END$);" description="console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it('$1$', function () {&#10;    $END$&#10;});" description="it should..." toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="d" value="describe('$1$', function () {&#10;    $END$&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="b" value="beforeEach(function () {&#10;    $END$&#10;});" description="beforeEach" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="f" value="function ($1$) {&#10;    $END$        &#10;}" description="function" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rb" value="const Bluebird = require('bluebird');" description="require Bluebird" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="class" value="'use strict';&#10;&#10;function $FUNCTIONNAME$() {&#10;    &#10;}&#10;&#10;module.exports = $FUNCTIONNAME$;&#10;" description="Create and export new class" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTIONNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="e" value="expect($CURSOR$)$END$;" description="expect" toReformat="false" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="nf" value="function $name$ ($args$) {&#10;    $end$&#10;}" description="Named function" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rf" value="const format = require(&quot;util&quot;).format;" description="require format from util module" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rm" value="const moment = require('moment');" description="require Moment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rl" value="const _ = require('lodash');" description="require Lodash" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pp" value="console.log(JSON.stringify($1$, null, 4));" description="Pretty print" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spec" value="'use strict';&#10;&#10;describe('$1$', function() {&#10;    var injector, $1$, $2$;&#10;    &#10;    before(initialize);&#10;    &#10;    beforeEach(function() {&#10;        $2$ = injector.instantiate($1$); &#10;    });&#10;    &#10;    describe('$3$', function() {&#10;        it('$4$', function() {&#10;            $END$&#10;        });&#10;    });&#10;    &#10;    function initialize() {&#10;        injector = require('dependencyprovider/test/testSetup.js')({});&#10;        &#10;        $1$ = injector.get('$1$');&#10;    }&#10;});&#10;" description="spec file kostra" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="l" value="var log = logger.createLoggerForInstance(this);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="defn" value="define([&quot;$MODULE_REF$&quot;], function($MODULE_VAR$) {&#10;$END$&#10;});" description="Inserts define() expression" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="MODULE_REF" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="jsDefineParameter(MODULE_REF)" defaultValue="mod" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ep" value="expect($1$).to.have.property($2$).that.is.equal($3$);" description="expect property" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="const log = logger.createLoggerForInstance(this);" description="create logger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

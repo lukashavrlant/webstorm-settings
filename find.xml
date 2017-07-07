@@ -1,0 +1,41 @@
+<application>
+  <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <recentFileMasks>
+      <mask>.env</mask>
+      <mask>*.</mask>
+      <mask>*.pa</mask>
+      <mask>*.pac</mask>
+      <mask>*.pack</mask>
+      <mask>*.packa</mask>
+      <mask>*.package</mask>
+      <mask>*.package.</mask>
+      <mask>*.package.js</mask>
+      <mask>*.package.json</mask>
+      <mask>.package.json</mask>
+      <mask>.</mask>
+      <mask>.s</mask>
+      <mask>.spe</mask>
+      <mask>.spec</mask>
+      <mask>.spec.</mask>
+      <mask>.spec.js</mask>
+      <mask>*.spec.js</mask>
+      <mask>*.spec.j</mask>
+      <mask>*.spec.ts</mask>
+      <mask>*pa</mask>
+      <mask>*p</mask>
+      <mask>*</mask>
+      <mask>pa</mask>
+      <mask>pac</mask>
+      <mask>packa</mask>
+      <mask>package.</mask>
+      <mask>package.js</mask>
+      <mask>package.jso</mask>
+      <mask>package.json</mask>
+    </recentFileMasks>
+  </component>
+</application>

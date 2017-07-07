@@ -1,0 +1,5 @@
+<application>
+  <component name="NodeJSRemoteInterpreters">
+    <interpreter node-remote-interpreter="vagrant:///home/luha/Environments/multienvironment/usr/local/bin/node" VAGRANT_FOLDER="$USER_HOME$/Environments/multienvironment" INTERPRETER_PATH="/usr/local/bin/node" HELPERS_PATH="/home/vagrant/.webstorm_nodejs_helpers" INITIALIZED="false" VALID="true" VERSION="6.9.1" />
+  </component>
+</application>
