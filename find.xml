@@ -5,9 +5,8 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
-      <mask>.env</mask>
-      <mask>*.</mask>
       <mask>*.pa</mask>
       <mask>*.pac</mask>
       <mask>*.pack</mask>
@@ -28,7 +27,6 @@
       <mask>*.spec.ts</mask>
       <mask>*pa</mask>
       <mask>*p</mask>
-      <mask>*</mask>
       <mask>pa</mask>
       <mask>pac</mask>
       <mask>packa</mask>
@@ -36,6 +34,9 @@
       <mask>package.js</mask>
       <mask>package.jso</mask>
       <mask>package.json</mask>
+      <mask>*</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
