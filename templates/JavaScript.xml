@@ -102,7 +102,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cl" value="const log = logger.createLoggerForInstance(this);" description="create logger" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="private static readonly logger = rootLogger.create($END$);&#10;" description="create logger" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
