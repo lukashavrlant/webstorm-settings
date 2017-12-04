@@ -49,6 +49,7 @@
   <action id="EditorMoveToPageTop" />
   <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord" />
+  <action id="EditorSplitLine" />
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
     <keyboard-shortcut first-keystroke="ctrl m" />
@@ -132,6 +133,10 @@
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Replace" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="ctrl meta s" />
     <keyboard-shortcut first-keystroke="ctrl h" />
