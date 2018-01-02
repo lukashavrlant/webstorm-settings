@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'event-explorer'" />
-    <option name="defaultScopeName" value="Project 'event-explorer'" />
-    <option name="SEARCH_SCOPE" value="Project 'event-explorer'" />
+    <option name="customScope" value="Project 'event-explorer-ui'" />
+    <option name="defaultScopeName" value="Project 'event-explorer-ui'" />
+    <option name="SEARCH_SCOPE" value="Project 'event-explorer-ui'" />
     <recentFileMasks>
       <mask>*.package.js</mask>
       <mask>*.package.json</mask>
