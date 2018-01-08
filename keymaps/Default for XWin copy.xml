@@ -70,7 +70,9 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
-  <action id="GotoFile" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="GotoLine" />
   <action id="GotoSuperMethod" />
   <action id="ImplementMethods" />
@@ -140,9 +142,6 @@
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="ctrl meta s" />
     <keyboard-shortcut first-keystroke="ctrl h" />
-  </action>
-  <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
