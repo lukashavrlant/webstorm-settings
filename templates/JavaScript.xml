@@ -4,19 +4,19 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="it" value="it('$1$', function () {&#10;    $END$&#10;});" description="it should..." toReformat="false" toShortenFQNames="true">
+  <template name="it" value="it('$1$', () =&gt; {&#10;    $END$&#10;});" description="it should..." toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="d" value="describe('$1$', function () {&#10;    $END$&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
+  <template name="d" value="describe('$1$', () =&gt; {&#10;    $END$&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="b" value="beforeEach(function () {&#10;    $END$&#10;});" description="beforeEach" toReformat="false" toShortenFQNames="true">
+  <template name="b" value="beforeEach(() =&gt; {&#10;    $END$&#10;});" description="beforeEach" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -107,7 +107,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tspec" value="import {expect} from 'chai';&#10;&#10;describe('$1$', function() {&#10;    $END$&#10;});&#10;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="tspec" value="import {expect} from 'chai';&#10;&#10;describe('$1$', () =&gt; {&#10;    $END$&#10;});&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
