@@ -69,6 +69,7 @@
   <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl g" />
