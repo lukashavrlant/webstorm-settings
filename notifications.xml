@@ -1,6 +1,8 @@
 <application>
   <component name="NotificationConfiguration">
+    <notification groupId=".ignore plugin" displayType="STICKY_BALLOON" shouldLog="false" />
     <notification groupId="Browser Connection" displayType="STICKY_BALLOON" />
+    <notification groupId="Docker: Dockerfile detection" shouldLog="false" />
     <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
   </component>
 </application>
