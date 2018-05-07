@@ -1,1 +1,6 @@
-<code_scheme name="Default" />
+<code_scheme name="Default" version="173">
+  <TypeScriptCodeStyleSettings>
+    <option name="USE_PUBLIC_MODIFIER" value="true" />
+    <option name="IMPORT_USE_NODE_RESOLUTION" value="GLOBAL" />
+  </TypeScriptCodeStyleSettings>
+</code_scheme>
