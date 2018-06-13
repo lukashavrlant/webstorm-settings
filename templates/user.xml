@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="class" value="export class $ClassName$ {&#10;    $END$&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="class" value="export class $ClassName$ {&#10;    $END$&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ClassName" expression="capitalize(camelCase(substringBefore(fileName(), &quot;.&quot;)))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
