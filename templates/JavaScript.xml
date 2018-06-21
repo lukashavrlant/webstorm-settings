@@ -86,7 +86,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="of" value="instanceof " toReformat="false" toShortenFQNames="true">
+  <template name="of" value="instanceof " description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
