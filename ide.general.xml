@@ -8,6 +8,6 @@
     <entry key="ide.firstStartup" value="false" />
     <entry key="search.everywhere.settings" value="true" />
     <entry key="dumb.aware.run.configurations" value="true" />
-    <entry key="allow.dialog.based.popups" value="false" />
+    <entry key="ide.tooltip.show.with.actions" value="true" />
   </component>
 </application>
