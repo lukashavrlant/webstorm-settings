@@ -111,10 +111,9 @@
   </action>
   <action id="NewJavaScriptFile">
     <keyboard-shortcut first-keystroke="alt c" second-keystroke="j" />
-    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="NewTypeScriptFile">
-    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="NextEditorTab" />
   <action id="NextTab">
