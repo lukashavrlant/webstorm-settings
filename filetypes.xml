@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".env" type="Bash" />
       <mapping ext="dockerfile" type="Dockerfile" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
@@ -10,6 +9,7 @@
       <mapping ext="swf" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="Bash" />
     </extensionMap>
   </component>
 </application>
