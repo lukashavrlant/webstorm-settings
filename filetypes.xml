@@ -1,15 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="dockerfile" type="Dockerfile" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
-      <mapping ext="msg" type="JSON" />
-      <mapping pattern=".nsprc" type="PLAIN_TEXT" />
-      <mapping ext="swf" type="PLAIN_TEXT" />
-      <mapping ext="conf" type="PLAIN_TEXT" />
-      <mapping ext="env" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="Bash" />
     </extensionMap>
   </component>
 </application>
