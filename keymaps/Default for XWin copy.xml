@@ -19,11 +19,13 @@
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
   <action id="Console.TableResult.Reload" />
   <action id="Diagram.DeselectAll" />
   <action id="Diff.UpdatedFiles">
     <keyboard-shortcut first-keystroke="alt c" second-keystroke="d" />
   </action>
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
@@ -43,6 +45,7 @@
   <action id="EditorMoveToPageTop" />
   <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord" />
+  <action id="EditorSplitLine" />
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
     <keyboard-shortcut first-keystroke="ctrl m" />
@@ -131,6 +134,10 @@
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Replace" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="ctrl meta s" />
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -167,4 +174,5 @@
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
+  <action id="ViewSource" />
 </keymap>
