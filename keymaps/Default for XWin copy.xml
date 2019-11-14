@@ -1,7 +1,4 @@
 <keymap version="1" name="Default for XWin copy" parent="Default for XWin">
-  <action id="$LRU">
-    <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
@@ -15,8 +12,6 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="CollapseAllRegions" />
-  <action id="CollapseRegion" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -32,10 +27,6 @@
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
-  <action id="Editor LRU">
-    <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
-  <action id="EditorAddOrRemoveCaret" />
   <action id="EditorDeleteLine" />
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -52,7 +43,6 @@
   <action id="EditorMoveToPageTop" />
   <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord" />
-  <action id="EditorSplitLine" />
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
     <keyboard-shortcut first-keystroke="ctrl m" />
@@ -71,15 +61,10 @@
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="alt g" />
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl g" />
-  </action>
-  <action id="GotoImplementation">
-    <keyboard-shortcut first-keystroke="ctrl alt b" />
-    <mouse-shortcut keystroke="alt button1" />
   </action>
   <action id="GotoLine" />
   <action id="GotoSuperMethod" />
@@ -99,6 +84,9 @@
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveStatementDown">
@@ -111,9 +99,10 @@
   </action>
   <action id="NewJavaScriptFile">
     <keyboard-shortcut first-keystroke="alt c" second-keystroke="j" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="NewTypeScriptFile">
-    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="NextEditorTab" />
   <action id="NextTab">
@@ -142,21 +131,12 @@
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Replace" />
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="shift f10" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-  </action>
-  <action id="SavaAs" />
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="ctrl meta s" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
-  </action>
-  <action id="ShowSettings">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
-    <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
